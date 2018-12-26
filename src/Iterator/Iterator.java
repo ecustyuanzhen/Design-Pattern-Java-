@@ -1,0 +1,1 @@
+package Iterator;/** * @Author:zhenyuan * @Date:Created in 19:41 2018/12/26 */public interface Iterator {    public abstract boolean hasNext();    public abstract Object next();}

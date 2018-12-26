@@ -1,0 +1,1 @@
+package Iterator;/** * @Author:zhenyuan * @Date:Created in 19:43 2018/12/26 */public class Book {    private String name;    public Book(String name) {        this.name = name;    }    public String getName() {        return name;    }}
