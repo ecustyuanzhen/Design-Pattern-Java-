@@ -1,0 +1,1 @@
+package Adapter;/** * @Author:zhenyuan * @Date:Created in 22:36 2018/12/27 */public class Main {    public static void main(String[] args){        Print p = new PrintBanner("hello");        p.printStrong();        p.printWeak();    }}

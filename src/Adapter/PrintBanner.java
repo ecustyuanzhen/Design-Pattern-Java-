@@ -1,0 +1,1 @@
+package Adapter;/** * @Author:zhenyuan * @Date:Created in 22:34 2018/12/27 */public class PrintBanner extends Banner implements Print  {    public PrintBanner(String string) {        super(string);    }    @Override    public void printWeak() {        showWithParen();    }    @Override    public void printStrong() {        showWithAster();    }}

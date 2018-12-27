@@ -1,0 +1,1 @@
+package Adapter;/** * @Author:zhenyuan * @Date:Created in 22:24 2018/12/27 */public interface Print {    public abstract void printWeak();    public abstract void printStrong();}
