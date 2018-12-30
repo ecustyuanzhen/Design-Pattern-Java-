@@ -1,0 +1,1 @@
+package Factory.framework;/** * @Author:zhenyuan * @Date:Created in 17:47 2018/12/29 */public abstract class Factory {    public final Product create(String ower) {        Product p = createProduct(ower);        registerProduct(p);        return p;    }    public abstract void registerProduct(Product p);    public abstract Product createProduct(String ower);}

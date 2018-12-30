@@ -1,0 +1,1 @@
+package Factory.framework;/** * @Author:zhenyuan * @Date:Created in 17:45 2018/12/29 */public abstract class Product {    public abstract void use();}
