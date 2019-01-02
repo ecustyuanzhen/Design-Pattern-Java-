@@ -1,1 +1,1 @@
-package Builder;/** * @Author:zhenyuan * @Date:Created in 18:12 2019/1/2 */public class Builder {}
+package Builder;/** * @Author:zhenyuan * @Date:Created in 18:12 2019/1/2 */public abstract class Builder {    public abstract void doSomeThing();}

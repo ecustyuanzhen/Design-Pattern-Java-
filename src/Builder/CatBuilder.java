@@ -1,1 +1,1 @@
-package Builder;/** * @Author:zhenyuan * @Date:Created in 18:15 2019/1/2 */public class CatBuilder extends Builder {    @Override    public void doSomeThing() {        System.out.println("I'm dog builder!");    }}
+package Builder;/** * @Author:zhenyuan * @Date:Created in 18:15 2019/1/2 */public class CatBuilder extends Builder {    @Override    public void doSomeThing() {        System.out.println("I'm cat builder!");    }}

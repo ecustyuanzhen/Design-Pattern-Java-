@@ -1,1 +1,1 @@
-package Builder;/** * @Author:zhenyuan * @Date:Created in 18:13 2019/1/2 */public class Director {}
+package Builder;/** * @Author:zhenyuan * @Date:Created in 18:13 2019/1/2 */public class Director {    private Builder builder;    public Director(Builder builder) {        this.builder = builder;    }    public void construcr(){        builder.doSomeThing();    }}
