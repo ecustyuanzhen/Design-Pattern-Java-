@@ -1,0 +1,1 @@
+package prototype.framework;/** * @Author:zhenyuan * @Date:Created in 19:24 2018/12/30 */public interface Product extends Cloneable {    public abstract void use(String s);    public abstract Product createClone();}
