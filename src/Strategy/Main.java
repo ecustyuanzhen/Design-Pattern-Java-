@@ -1,1 +1,1 @@
-package Strategy;/** * @Author:zhenyuan * @Date:Created in 22:08 2019/1/5 */public class Main {}
+package Strategy;/** * @Author:zhenyuan * @Date:Created in 22:08 2019/1/5 */public class Main {    public static void main(String[] args){        String[] data = {"Dumpty","Bowman","Carroll","Elfland","Alice"};//        UseData useData = new UseData(new QuickSort(), data);//        useData.excute();        UseData useData1 = new UseData(new SelectSorter(), data);        useData1.excute();    }}
