@@ -1,0 +1,1 @@
+package Strategy;/** * @Author:zhenyuan * @Date:Created in 21:55 2019/1/5 */public interface Sort {}

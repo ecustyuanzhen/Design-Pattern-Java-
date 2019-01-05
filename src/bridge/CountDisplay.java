@@ -1,0 +1,1 @@
+package bridge;/** * @Author:zhenyuan * @Date:Created in 21:02 2019/1/4 */public class CountDisplay extends Display{    public CountDisplay(DisplayImpl display) {        super(display);    }    public void mulDisplay(int times){        open();        for (int i = 0; i < times; i++) {            print();        }        close();    }}
