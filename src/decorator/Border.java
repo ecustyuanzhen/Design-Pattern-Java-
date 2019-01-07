@@ -1,0 +1,1 @@
+package decorator;/** * @Author:zhenyuan * @Date:Created in 19:30 2019/1/7 */public abstract class Border extends Dispaly{    protected Dispaly dispaly;    public Border(Dispaly dispaly) {        this.dispaly = dispaly;    }}
