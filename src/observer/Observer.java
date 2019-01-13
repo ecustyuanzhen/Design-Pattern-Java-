@@ -1,0 +1,1 @@
+package observer;/** * @Author:zhenyuan * @Date:Created in 22:21 2019/1/13 */public interface Observer {    public void update(Generator generator);}

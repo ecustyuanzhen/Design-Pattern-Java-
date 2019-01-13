@@ -1,0 +1,1 @@
+package observer;/** * @Author:zhenyuan * @Date:Created in 22:30 2019/1/13 */public class MyObserver implements Observer {    @Override    public void update(Generator generator) {        System.out.println("my "+generator.getNum());    }}

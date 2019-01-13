@@ -1,0 +1,1 @@
+package observer;/** * @Author:zhenyuan * @Date:Created in 22:31 2019/1/13 */public class Main {    public static void main(String[] args){        RandomGenerator randomGenerator = new RandomGenerator();        randomGenerator.addObserver(new MyObserver());        randomGenerator.addObserver(new YouObserver());        randomGenerator.execute();    }}
